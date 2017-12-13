@@ -6,5 +6,4 @@ from pygeocoder import Geocoder
 
 if __name__ == '__main__':
     address = 'Avenida Brasil, 1000'
-    # address = '207 N. Defiance St, Archbold, OH'
     print(Geocoder.geocode(address)[0].coordinates)
